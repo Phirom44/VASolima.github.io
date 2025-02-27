@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f9;
+    padding: 10px; /* Ensures spacing on smaller screens */
+}
+
+.id-card {
+    width: 90%; /* Use a percentage to make it scale with the screen size */
+    max-width: 400px; /* Limits the width on larger devices */
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 70px; /* Adjusted size for smaller screens */
+    margin-right: 15px;
+}
+
+.header-text {
+    text-align: left;
+}
+
+.school-name {
+    font-size: 1.2rem; /* Scales better on different screens */
+    color: #003399;
+    margin: 0;
+   
+  font-family: "Moul", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.school-subtitle {
+    font-size: 1.2rem;
+    
+    color: #FF0000;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    
+}
+
+.photo-container {
+    border: 2px solid #003399;
+    border-radius: 7%;
+    overflow: hidden;
+    width: 250px; /* Smaller profile picture */
+    height: 300px;
+    margin: 0 auto 20px auto;
+}
+
+.profile-pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Name{
+    font-family: "Alfa Slab One", serif;
+    
+   
+
+}
+
+
+p {
+    margin: 10px 0; 
+   
+    font-size: 1.2rem; 
+    line-height: 1.6; 
+    color: #333; 
+    text-align: left; 
+    padding: 10px; /* បន្ថែមចន្លោះខាងក្នុងអត្ថបទ */
+    background-color: #f9f9f9; /* ដាក់ពណ៌ផ្ទៃខាងក្រោយស្រទន់ */
+    border-left: 4px solid #0a1b7a; /* ដាក់ស៊ុមខាងឆ្វេងសម្រាប់លក្ខណៈសម្បត្តិ */
+    border-radius: 5px; /* បន្ថែមស្នាបនិងស្លាក់ជុំវិញ */
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p strong {
+    font-weight: bold;
+    color: #0a1b7a; /* ពណ៌ខៀវស្រស់ស្អាតសម្រាប់អត្ថបទសំខាន់ */
+}
+
+
+/* Responsive Design for Smaller Devices */
+@media (max-width: 600px) {
+    .id-card {
+        padding: 15px; /* Adjust padding */
+    }
+
+    .logo {
+        width: 70px; /* Smaller logo */
+    }
+
+    .photo-container {
+        width: 250px; /* Smaller profile picture */
+        height: 300px;
+    }
+
+    .school-name {
+        font-size: 1.06rem; /* Smaller font for school name */
+    }
+
+    .school-subtitle {
+        font-size: 1rem; /* Smaller font for subtitle */
+    }
+
+    p {
+        font-size: 1rem; /* Adjust text size */
+    }
+}
+.telegram-icon {
+    width: 30px; /* ទំហំរូបតំណាង */
+    height: 30px; /* ទំហំរូបតំណាង */
+    vertical-align: middle; /* ផ្តល់ការបញ្ចូលដោយស្មើរមិនមែនដូចគ្នាទៅពីក្រោម */
+    margin-right: 10px; /* ផ្តល់ចន្លោះចំពោះអត្ថបទ */
+   
+}
+
+a {
+    color: #0088cc; /* ពណ៌ Telegram */
+    text-decoration: none; /* លុបសន្លាក់ក្រោមអត្ថបទ */
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+a:hover {
+    text-decoration: underline; /* បន្ថែមសន្លាក់នៅលើ Link បើមាន Mouse Hover */
+}
+.bold-name {
+    font-weight: bold;
+}
+.SREAN{
+    
+    font-family: "Angkor", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-left: 3%;
+}
